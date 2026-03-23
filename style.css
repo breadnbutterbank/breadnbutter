@@ -108,3 +108,15 @@ body {
 .input-area input {
   flex: 1;
 }
+.card {
+  border-radius: 25px;
+  padding: 18px;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+button {
+  border-radius: 20px;
+}
