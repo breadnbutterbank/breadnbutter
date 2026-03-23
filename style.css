@@ -47,16 +47,18 @@ body {
   background: #e0b97a;
   border-radius: 10px;
 }
-
 .nav {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  max-width: 420px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85%;
+  background: #fffaf5;
+  border-radius: 25px;
   display: flex;
   justify-content: space-around;
-  background: #fffaf5;
-  padding: 10px;
+  padding: 12px 0;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 
 .nav i {
